@@ -1,0 +1,863 @@
+/* --- Global & Font Setup (Dark Mode) --- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+  background-color: #1a1a1a;
+  color: #d1d1d1;
+}
+
+/* --- Main App & Header --- */
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #252525;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #404040;
+  text-align: left;
+}
+
+.App-header h1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.App-header p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: #999;
+}
+
+/* --- Main 2-Column Layout --- */
+.App-main.parser-layout {
+  max-width: 90%;
+  min-width: 1200px;
+  margin: 0 auto 4rem auto;
+  display: grid;
+  grid-template-columns: 400px 1fr;
+  gap: 2.5rem;
+  text-align: left;
+}
+
+/* --- Editor Column (Left) --- */
+.input-container {
+  background-color: #252525;
+  padding: 1.5rem 2rem;
+  border-radius: 8px;
+  border: 1px solid #404040;
+  height: calc(90vh - 4rem);
+  overflow-y: auto;
+  position: sticky;
+  top: 2rem;
+}
+
+.input-container h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 1rem;
+}
+
+.input-container label {
+  display: block;
+  font-weight: 500;
+  margin-top: 1.5rem;
+  margin-bottom: 0.75rem;
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.title-input,
+.gear-list-textarea,
+.plan-input-textarea {
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border: 1px solid #505050;
+  border-radius: 6px;
+  background-color: #1a1a1a;
+  color: #d1d1d1;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.title-input:focus,
+.gear-list-textarea:focus,
+.plan-input-textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+  background-color: #2a2a2a;
+}
+
+.gear-list-textarea,
+.plan-input-textarea {
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+}
+
+.gear-list-textarea { height: 100px; }
+.plan-input-textarea { height: 250px; }
+
+/* --- Button Styles --- */
+button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+button:disabled {
+  background-color: #555;
+  color: #888;
+  cursor: not-allowed;
+}
+
+button[style*="e67e22"] {
+  background-color: #e67e22;
+  color: white;
+}
+button[style*="e67e22"]:hover {
+  background-color: #d35400;
+}
+
+button[style*="marginTop"] {
+  background-color: #3498db;
+  color: white;
+}
+button[style*="marginTop"]:hover {
+  background-color: #2980b9;
+}
+
+/* --- Preview Column (Right) --- */
+.output-container {
+  background-color: #252525;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  height: calc(90vh - 4rem);
+  overflow-y: auto;
+}
+
+.output-container h2 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 0;
+  padding: 1.5rem 2.5rem 1rem 2.5rem;
+  border-bottom: 1px solid #404040;
+  background-color: #1e1e1e;
+  border-radius: 8px 8px 0 0;
+}
+
+.article-content {
+  max-width: 740px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.article-content h1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2.8rem;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.gear-list-display {
+  background-color: #1e1e1e;
+  border: 1px solid #404040;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 3rem;
+  font-size: 0.9rem;
+}
+.gear-list-display strong {
+  color: #eee;
+}
+.gear-list-display pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  line-height: 1.6;
+  color: #aaa;
+}
+
+.blog-day {
+  margin-bottom: 3rem;
+}
+.blog-day h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  border-top: 1px solid #404040;
+  padding-top: 2rem;
+}
+
+.mission-block {
+  margin-top: 2.5rem;
+}
+.mission-block h3 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #eee;
+}
+.mission-idea {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  color: #aaa;
+  font-style: italic;
+  line-height: 1.7;
+  border-left: 3px solid #505050;
+  padding-left: 20px;
+}
+
+.image-placeholder {
+  width: 100%;
+  background-color: #1e1e1e;
+  border: 2px dashed #505050;
+  border-radius: 8px;
+  text-align: center;
+  font-weight: 500;
+  color: #777;
+  margin: 1.5rem 0;
+  transition: border-color 0.2s, background-color 0.2s;
+}
+.image-placeholder:hover {
+  border-color: #3498db;
+  background-color: #2a2a2a;
+}
+.image-placeholder label {
+  display: block;
+  padding: 3rem 1rem;
+  cursor: pointer;
+}
+.image-uploader img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 1.5rem;
+}
+
+.story-textarea {
+  width: 100%;
+  height: 150px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.7;
+  padding: 1rem;
+  border: 1px solid #505050;
+  border-radius: 5px;
+  box-sizing: border-box;
+  resize: vertical;
+  margin-top: 1.5rem;
+  background-color: #1a1a1a;
+  color: #d1d1d1;
+}
+.story-textarea:focus {
+  outline: none;
+  border-color: #3498db;
+  box-shadow: 0 0 0 3px rgba(52, 152, 219, 0.1);
+  background-color: #2a2a2a;
+}
+
+/* --- New Public Article Styles --- */
+.article-image {
+  margin: 2rem 0;
+  position: relative;
+}
+.article-image img {
+  width: 100%;
+  border-radius: 8px;
+  border: 1px solid #404040;
+}
+
+.buy-print-button {
+  background-color: #3498db;
+  color: #ffffff;
+  font-weight: 700;
+  text-decoration: none;
+  padding: 1rem 1.5rem;
+  border-radius: 6px;
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  transition: all 0.2s;
+  opacity: 0.8;
+}
+.buy-print-button:hover {
+  opacity: 1;
+  background-color: #2980b9;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.article-story {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d1d1d1;
+  margin-top: 2rem;
+  white-space: pre-wrap; /* Preserves paragraphs */
+}
+
+/* --- New Homepage Styles --- */
+.admin-link {
+  color: #3498db;
+  font-weight: 500;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.2s;
+  /* Position it in the header */
+  position: absolute;
+  top: 1.5rem;
+  right: 2rem;
+}
+.admin-link:hover {
+  color: #fff;
+}
+
+.homepage-content {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.article-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* 3-column grid */
+  gap: 1.5rem;
+}
+
+.article-card {
+  background-color: #252525;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #eee;
+  overflow: hidden; /* For the image */
+  transition: all 0.2s;
+}
+
+.article-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+.article-card-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover; /* Crop image to fit */
+  display: block;
+}
+
+.article-card-image-placeholder {
+  width: 100%;
+  height: 220px;
+  background-color: #303030;
+  display: block;
+}
+
+.article-card h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 1rem 1.25rem 1.25rem 1.25rem;
+  margin: 0;
+}
+
+/* --- Inline Save Message Style --- */
+.success-message {
+  color: #3498db;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+/* --- New Rich Text Editor Styles --- */
+.story-textarea .ql-toolbar {
+  border-radius: 6px 6px 0 0;
+  border: 1px solid #505050;
+  background: #2a2a2a;
+}
+.story-textarea .ql-container {
+  border-radius: 0 0 6px 6px;
+  border: 1px solid #505050;
+  border-top: 0;
+  background: #1a1a1a;
+  color: #d1d1d1;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  height: 150px;
+}
+.story-textarea .ql-editor {
+  padding: 1rem;
+}
+/* Change the editor button colors */
+.ql-snow .ql-stroke { stroke: #aaa; }
+.ql-snow .ql-fill { fill: #aaa; }
+.ql-snow .ql-picker { color: #aaa; }
+
+
+/* --- New Public Article Story Styles --- */
+/* We remove the old .article-story rule */
+.article-story {
+  margin-top: 2rem;
+  /* We don't need padding/font, the .ql-editor class handles it */
+}
+/* This makes the public article look just like the editor */
+.article-story .ql-editor {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #d1d1d1;
+  padding: 0; /* Remove padding for a seamless look */
+  white-space: normal; /* Allow text to wrap normally */
+}
+.article-story .ql-editor p {
+  white-space: pre-wrap; /* Make sure paragraphs wrap */
+}
+/* --- New Edit Link Styles --- */
+.article-card-wrapper {
+  position: relative; /* Allows us to position the edit link */
+}
+
+.edit-link {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 0; /* Hidden by default */
+  transition: opacity 0.2s;
+}
+
+.article-card-wrapper:hover .edit-link {
+  opacity: 1; /* Show on hover */
+}
+/* --- New Delete Button Style --- */
+button[style*="e74c3c"] {
+  background-color: #e74c3c; /* Red */
+  color: white;
+}
+button[style*="e74c3c"]:hover {
+  background-color: #c0392b; /* Darker Red */
+}
+/* --- New "Empty Shell" Styles --- */
+.or-divider {
+  text-align: center;
+  font-weight: 700;
+  color: #888;
+  margin: 2rem 0;
+}
+
+button[style*="27ae60"] {
+  background-color: #27ae60; /* Green */
+  color: white;
+}
+button[style*="27ae60"]:hover {
+  background-color: #2ecc71;
+}
+
+.save-actions {
+  border-top: 1px solid #404040;
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
+/* --- New EXIF Display Styles --- */
+.exif-preview {
+  font-size: 0.8rem;
+  font-style: italic;
+  color: #888;
+  background: #2a2a2a;
+  padding: 0.5rem;
+  border-radius: 4px;
+  margin-top: 1rem;
+}
+
+.exif-display {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 1.5rem; /* Row gap 0, Column gap 1.5rem */
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.9rem;
+  color: #888;
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid #404040;
+}
+/* --- New Admin Caption Input Styles --- */
+.caption-label {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #888;
+  margin-top: 1rem;
+}
+.caption-input {
+  width: 100%;
+  font-size: 0.9rem;
+  padding: 0.5rem 0.75rem;
+  box-sizing: border-box;
+  border: 1px solid #505050;
+  border-radius: 6px;
+  background-color: #2a2a2a;
+  color: #d1d1d1;
+  margin-top: 0.5rem;
+}
+.caption-input:focus {
+  outline: none;
+  border-color: #3498db;
+}
+
+/* --- New Public Caption Block Styles --- */
+.article-image-container {
+  margin: 2rem 0;
+  border-radius: 8px;
+  border: 1px solid #404040;
+  overflow: hidden; /* Keep the rounded corners */
+}
+
+.article-image-container img {
+  width: 100%;
+  display: block; /* Removes tiny space under image */
+}
+
+.article-caption {
+  background-color: #252525;
+  padding: 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  border-top: 1px solid #404040;
+}
+
+.caption-text h4 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 0.25rem 0;
+}
+
+.caption-text p {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  color: #aaa;
+  margin: 0;
+  line-height: 1.5;
+}
+
+.exif-display {
+  /* It's now inside the caption, let's make it smaller */
+  flex-wrap: wrap;
+  gap: 0 1.25rem;
+  font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+  font-size: 0.85rem;
+  color: #777;
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #404040;
+}
+.exif-display span {
+  display: inline-block; /* Make sure they line up */
+}
+
+.buy-print-button {
+  /* No longer positioned absolutely */
+  padding: 0.75rem 1.25rem;
+  font-size: 0.9rem;
+  flex-shrink: 0; /* Don't let it shrink */
+}
+/* --- New Main Layout --- */
+.main-content {
+  /* This ensures content starts BELOW the fixed navbar */
+  padding-top: 60px; 
+}
+
+/* --- New Navbar --- */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #252525;
+  border-bottom: 1px solid #404040;
+  padding: 0 2rem;
+  height: 60px;
+  position: fixed; /* Make it stick to the top */
+  top: 0;
+  width: 100%;
+  box-sizing: border-box; /* Include padding in width */
+  z-index: 1000;
+}
+
+.navbar-left, .navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.nav-logo {
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-link {
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #aaa;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.nav-link:hover {
+  color: #fff;
+}
+
+.nav-button {
+  background: #3498db;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  font-weight: 500;
+  font-size: 0.9rem;
+  cursor: pointer;
+}
+
+/* --- New Homepage Header Image --- */
+.homepage-header-image {
+  height: 50vh;
+  min-height: 300px;
+  background-color: #333;
+  /* You can set your header image here */
+  /* background-image: url('YOUR-IMAGE-URL.jpg'); */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+.header-text {
+  background-color: rgba(0,0,0,0.4);
+  padding: 2rem 3rem;
+  border-radius: 5px;
+}
+.header-text h1 {
+  font-size: 3rem;
+  margin: 0;
+}
+.header-text p {
+  font-size: 1.2rem;
+  margin: 0;
+  color: #eee;
+}
+
+.homepage-content h2 {
+  font-size: 2rem;
+  color: #eee;
+  text-align: center;
+  margin: 3rem 0 2rem 0;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 1rem;
+}
+
+/* --- New Login Page Styles --- */
+.login-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 5rem;
+}
+.login-form {
+  background: #252525;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+.login-form h2 {
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+}
+.login-form label {
+  color: #aaa;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.login-form input {
+  /* Use existing styles */
+  width: 100%;
+  font-size: 1rem;
+  padding: 0.75rem;
+  box-sizing: border-box;
+  border: 1px solid #505050;
+  border-radius: 6px;
+  background-color: #1a1a1a;
+  color: #d1d1d1;
+  margin-top: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+.login-form button {
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 6px;
+}
+/* --- New Google Login Button Style --- */
+.google-login-button {
+  background-color: #4285F4; /* Google Blue */
+  color: white;
+  width: 100%;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 700;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+.google-login-button:hover {
+  background-color: #357ae8;
+}
+
+/* --- New Navbar Profile Pic Style --- */
+.nav-profile-pic {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #505050;
+}
+/* --- New Gear Generator Styles --- */
+.gear-generator-section {
+  border-top: 2px solid #404040;
+  margin-top: 2.5rem;
+  padding-top: 1.5rem;
+}
+
+.gear-generator-section h2 {
+  color: #fff;
+  font-size: 1.25rem;
+  border-bottom: 1px solid #404040;
+  padding-bottom: 1rem;
+}
+
+button[style*="9b59b6"] {
+  background-color: #9b59b6; /* Purple */
+  color: white;
+}
+button[style*="9b59b6"]:hover {
+  background-color: #8e44ad;
+}
+
+/* --- New Gear Page Styles --- */
+.gear-list {
+  margin-top: 3rem;
+}
+
+.gear-item {
+  background-color: #252525;
+  border: 1px solid #404040;
+  border-radius: 8px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+}
+
+.gear-item h2 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0 0 1rem 0;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #404040;
+}
+
+/* Make the AI-generated HTML look good */
+.gear-item .article-story-content {
+  margin-top: 0;
+}
+.gear-item .ql-editor {
+  padding: 0;
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #c0c0c0;
+}
+.gear-item .ql-editor h4 {
+  font-size: 1.1rem;
+  color: #fff;
+  font-weight: 700;
+  margin-top: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+.gear-item .ql-editor ul {
+  padding-left: 1.5rem;
+}
+
+/* --- New Error Box Style --- */
+.error-message-box {
+  background-color: #e74c3c;
+  color: #fff;
+  border: 1px solid #c0392b;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+.error-message-box p {
+  margin: 0;
+  color: #fff;
+}
+/* --- New Gear Delete Button Style --- */
+.gear-item {
+  position: relative; /* Needed to position the delete button */
+}
+
+.gear-delete-button {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  
+  /* Make it a small, round, red button */
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  line-height: 40px;
+  text-align: center;
+  
+  background-color: #e74c3c;
+  color: white;
+  border: 1px solid #c0392b;
+}
+
+.gear-delete-button:hover {
+  background-color: #c0392b;
+}

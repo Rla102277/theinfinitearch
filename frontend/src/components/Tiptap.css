@@ -1,0 +1,61 @@
+/* --- Tiptap Editor Styles --- */
+.tiptap-container {
+    border: 1px solid #505050;
+    border-radius: 6px;
+    overflow: hidden;
+    margin-top: 1.5rem;
+  }
+  
+  .tiptap-toolbar {
+    background: #2a2a2a;
+    padding: 0.5rem;
+    border-bottom: 1px solid #505050;
+  }
+  
+  .tiptap-toolbar button {
+    width: auto;
+    padding: 0.25rem 0.75rem;
+    margin-right: 0.25rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    background: #404040;
+    color: #eee;
+    border: 1px solid #606060;
+  }
+  
+  .tiptap-toolbar button.is-active {
+    background: #3498db;
+    color: #fff;
+  }
+  
+  .ProseMirror {
+    background: #1a1a1a;
+    color: #d1d1d1;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    line-height: 1.7;
+    padding: 1rem;
+    min-height: 150px;
+  }
+  
+  .ProseMirror:focus {
+    outline: none;
+  }
+  
+  /* --- Tiptap Public View Styles --- */
+  /* This styles the final article page */
+  .article-story-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #d1d1d1;
+    margin-top: 2rem;
+    white-space: normal;
+  }
+  .article-story-content p {
+    white-space: pre-wrap;
+    margin-top: 0;
+  }
+  .article-story-content ul {
+    padding-left: 1.5rem;
+  }
