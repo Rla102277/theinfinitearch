@@ -90,3 +90,59 @@ curation/
 - Legacy junk keywords pending cleanup: `landscao` typo (686), `landscape` (2,649), `core_keep` (31,574), `has people` / `has no people` (~98,000).
 - 34 of 66 NOLA contact sheets unread.
 - Contact sheets for NOLA, Feb 2015 and the gap passes (~68 MB) were left out of this repo. Regenerate with `scripts/python/build.py` and `f15.py`.
+
+---
+
+## Structure as built (14 Oct 2026, evening)
+
+| Folder | Albums | Photos | Status |
+|---|---|---|---|
+| `TRIPS` | 60 | 23,145 | all frames per place, any date |
+| `WORKING` | 60 | 17,800 | no significant face; the second-look cut |
+| `TRIP MEMORIES` | 58 | 4,631 | complete; frames with a face >=6% of frame |
+
+Built additively. `TRIPS` was never rebuilt, only extended.
+
+### The GPS oracle (Randy's idea, and it worked)
+
+For each day, use iPhone frames that carry GPS as a **location oracle** to place the
+no-GPS camera frames from the same day. This inverts the earlier GPS trap: GPS is used
+only to decide WHERE, never to decide what is valuable.
+
+Placed **6,989** previously unplaceable frames. Japan +1,155, Iceland +914, New Orleans
++500, Kentucky +401, Quebec +373.
+
+Per-place matching radius = 75th-percentile spread of that album's own GPS points, capped
+at 260mi, with explicit overrides for large places (Japan 600, Oregon 600, Alaska 400,
+Iceland 400) and a **blacklist** so the 14 albums verified as false or thin can never
+attract new frames.
+
+### Memories vs Working
+
+Split on **detected face size**, not face presence: `ZDETECTEDFACE.ZSIZE >= 0.06`. A
+landscape with one distant figure stays in Working. A portrait goes to Memories.
+
+## TWO ASSET CLASSES PHOTOS WILL NOT PUT IN AN ALBUM
+
+Both fail **silently**: AppleScript reports `ADD OK` and nothing lands. One bad member
+kills an entire batch of 90, so a few hundred poison pills can zero out a whole album
+(Japan came back 0 of 2,814 on the first run).
+
+**1. `ZCLOUDISMYASSET = 0` — 686 stills that are not Randy's.** Shared into his library by
+four other iCloud users. Japan 354, Quebec 135, Iceland 93, New Orleans 51, Kentucky 51.
+All iPhone. **These must be excluded from grading: he did not take them.**
+
+**2. `ZVISIBILITYSTATE <> 0` — 3,317 stills.** Appears to be iCloud Shared Library
+membership (inferred from `ZCLOUDLOCALSTATE=0`, `ZSAVEDASSETTYPE=4`, and owner hashes;
+not confirmed). **973 of these are Randy's own real-camera frames**, including
+**147 GFX100S II**, 229 X-Pro3, 115 X-T2, 100 a6000, 96 X-E5, 19 X-T5, 11 GFX100RF.
+1,170 of the 3,317 are from 2026, the Japan and Iceland year.
+
+These 973 cannot enter any album until they are moved back to the Personal Library in the
+Photos UI. They are not lost, they are fenced off.
+
+**Rule for every future pass: filter `ZVISIBILITYSTATE = 0 AND (ZCLOUDISMYASSET IS NULL OR
+ZCLOUDISMYASSET = 1)` before generating any album script.**
+
+Residual after both repairs: 1,196 frames still outside WORKING (1,160 visibility, 36 burst
+stack). That is 6% of the Working layer.
