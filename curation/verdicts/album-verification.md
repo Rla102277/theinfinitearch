@@ -131,3 +131,34 @@ thing in the library to a coherent chapter that nobody has named yet.
 6 of 24 sampled `Arkansas` frames rendered **no derivative**. Either videos or originals not
 downloaded from iCloud. If originals are not on local disk, grading requires pulling them down
 first. Worth auditing library-wide before any grading pass.
+
+## Round 2 continued
+
+| Album | Verdict | Real | Notes |
+|---|---|---|---|
+| **New Hampshire and Maine** | **REAL** | ~44/48 | **Most recent trip: Oct 2-4 2026, on the Leica Q3 43 and X-E5.** A leaf-covered road running straight into autumn woods (Q3 43). Fog rolling over an autumn ridge, color half-dissolved (X-E5). A river at dusk, dark trees, light on water. A lighthouse on a distant island across open water, mostly empty space. Cairns stacked on the rocky shore. A B&W of bare trunks. The quiet work, on the camera whose Looks are being built. |
+| **Oregon** | **REAL, misnamed** | ~34/36 | **Richest album in the library for the actual body of work, and the name covers maybe a third of it.** March 2022 X-Pro3 road trip: Oregon coast → high desert → Nevada → Hoover Dam → Winslow AZ → Painted Desert. **A covered bridge in B&W with the dark opening dead center, and the same bridge from inside looking through to light.** A high arched bridge spanning a canyon. **Hoover Dam** (named in Randy's own thesis). Paths curving through dark coastal forest. A two-lane road into empty high desert (43.07/-118.20). A sea stack through tree silhouettes, toned down. A waterfall dissolved in fog. A collapsed wooden structure. Heceta Head Lighthouse four ways. Should be renamed or split. |
+| **Smoky Mountains** | **REAL** | ~45/48 | Oct 25-27 2024, almost all X-T5. Layered blue ridges through bare trees, a leaf-covered trail through golden forest, a trail climbing into mist, a dead tree against a deep valley, a wooden footbridge over a creek, a log shelter, dark creeks in rhododendron, Whitewater Falls. |
+| **New Orleans** | **REAL** | ~40/48 | 2009-2023, ten visits, across E-510, NEX-5N, a6000, X-T100, X-T2, X-Pro3, X-T5 and a Noritsu film scan. Most-returned-to place in the library. |
+
+## A curatorial split inside New Orleans
+
+The album contains two different kinds of picture and only one of them is the work.
+
+**Documents of attendance** (most of 2016-2021): parades, second lines, Krewe du Vieux at night.
+Dark, crowded, motion-blurred, full of faces and phones. These are records of being there.
+
+**The actual work**: empty French Quarter streets at dawn (2016 iPhone 6, and again 2023 X-T5 with
+wet pavement receding), the Preservation Hall ironwork shot twice eleven years apart, the tiled
+"CALLE d BORBON" sign, the Place d'Armes balconies, the cathedral across an empty square.
+
+Across fifteen years Randy keeps returning to the same two subjects: **the empty street before
+anyone is up, and the ironwork.** The parades are what he attended. The empty streets are what he
+photographed. Any New Orleans edit should be built from the second group.
+
+## Additional routing corrections
+
+- The two **Whitewater Falls** X-T5 frames misfiled in `Little Rock` (Oct 27 2024) belong to
+  **`Smoky Mountains`**.
+- `Smoky Mountains` holds two strays: a souvenir hat rack (2023-12-28) and a Christmas tree
+  selfie (2024-12-07).
