@@ -162,3 +162,38 @@ photographed. Any New Orleans edit should be built from the second group.
   **`Smoky Mountains`**.
 - `Smoky Mountains` holds two strays: a souvenir hat rack (2023-12-28) and a Christmas tree
   selfie (2024-12-07).
+
+## Round 2 continued (2)
+
+| Album | Verdict | Real | Notes |
+|---|---|---|---|
+| **Japan** | **REAL** | ~46/48 | July 17-27 2026, heavily **GFX100RF**. See below. |
+| **Colorado** | **REAL** | ~44/48 | Five trips 2020-2025. **Four collapsing mine structures** (X-T2, X-Pro3), incl. a B&W abandoned mine complex on a mountainside. A B&W railyard with tracks curving away. A dirt road up a valley under heavy cloud. Two wide treeless valleys shot dark on X-T5. A high-contrast B&W snowfield. A white church with a bell tower. Stray: frame 3 is the Sandia Peak tram, Albuquerque. |
+| **Washington DC** | **REAL** | ~46/48 | Two trips: Dec 2009 (E-510), Jan 2017 (a6000). **Source of the Library of Congress frames** shown earlier in this chat. **The Washington Monument alone against pure black** is a genuine Ma image. Also the Capitol at dusk in rain on wet pavement, the rotunda from inside, Lincoln at night, the National Cathedral portal, the Mall's long gravel path to the Capitol, the Smithsonian Castle at dusk, the monument across the Tidal Basin in flat fog, the MLK inscription, the FDR breadline. Stray: frame 48 is Orlando. |
+
+## JAPAN — the largest finding of the audit
+
+In a 48-frame sample of 1,979, the GFX100RF frames are overwhelmingly **gates and passages**:
+
+- a temple gate at the end of an empty paved approach, hazy light
+- a gate with sun flare and a single figure walking through
+- a torii hung with lanterns
+- a shrine gate with shimenawa rope
+- red lanterns beside stone steps climbing into green
+- **a weathered stone torii standing alone in undergrowth**
+- a torii over steps climbing into forest
+- **the Fushimi Inari torii tunnel, FOUR separate ways**, including one empty and one shot
+  abstract with light at the far end
+- the Nakamise approach, empty and receding before the crowds
+
+That is roughly a dozen thresholds in a 2.4% sample.
+
+The brand is called THE INFINITE ARCH. The project notes state it is "not about physical arches."
+Three months ago Randy spent ten days in Japan photographing almost nothing but physical
+thresholds, on his newest camera, and the result is filed under a country name.
+
+**This album should be reviewed in full (all 1,979 frames) before any other grading work.** It is
+the most concentrated body of on-thesis material in the library and it is three months old.
+
+Two frames from the sample worth putting in front of a juror immediately: the empty Fushimi Inari
+torii tunnel (GFX100RF), and the empty Nakamise approach receding (GFX100RF).
