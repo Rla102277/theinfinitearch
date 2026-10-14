@@ -95,3 +95,39 @@ about 90 seconds per album and it was right every time, including on albums with
 Recommended: contact-sheet every remaining album before any keyword is written. The sheets
 are cheap to generate (`scripts/python/sheets.py`) and they are the only signal that did not
 lie.
+
+---
+
+# Round 2 — the remaining 39 albums
+
+Sheets in `curation/evidence/namecheck2/`. Larger albums sampled at 36-48 frames.
+
+| Album | Verdict | Real | Notes |
+|---|---|---|---|
+| **Iceland** | **REAL** | 34/36 | **Strongest album in the library.** Jan 11-17 2026. GFX100S II and X-E5: the basalt arch at Reynisfjara at dusk, ice on black sand under pink sky at Diamond Beach, **a blue ice canyon from above**, the red-roofed church in snow, Skógafoss in mist, a B&W river in snow, Brúarfoss at golden hour, a frost-covered Reykjavík graveyard. Aurora frames are numerous and repetitive on iPhone. One stray: a GFX100RF frame from 2025-10-13 (Quebec). **841 more Iceland frames, incl. 245 GFX, are still outside the structure.** |
+| **Guadalupe Mountains** | **REAL** | ~43/48 | GPS 31.89/-104.84 confirmed. THREE trips: Sept 2024, May 2025, May 2026, across X-T5, X100VI, X-E5, GFX100RF. El Capitan in golden light, a ridgeline at dusk, the view to the salt flats from the summit ridge, a B&W escarpment, dead trees against the ridge, a GFX100RF low ridge at dusk. A real working location. |
+| **Caprock Canyons** | **REAL** | ~32/36 | GPS 34.44/-101.09. Nov 2023 (X-T5) and April 2026 (iPhone 16). **Four frames of red dirt trail running into the canyon**, two toward a spire at dusk. Red caprock against deep blue, prickly pear in dry grass, the bison herd. |
+| **Santa Fe** | **REAL** | ~18/24 | July 21-23 2018, a6000. Basalt cliffs and a sage trail at Diablo Canyon, **El Santuario de Chimayó down a tree-lined walk**, the Loretto Chapel rose window, the Cathedral Basilica at night, riders crossing the Rio Grande. |
+| **Arkansas** | **REAL, thin** | ~13/24 | Conway/Greenbrier, GPS 35.10/-92.31. A lake shore at sunset (X100VI), oak leaves, a redbud in bloom, tulips, an owl on a fence post, a wooded property with a red shed. Mostly snapshots. |
+
+## Routing corrections found in round 2
+
+- `Caprock Canyons` frames 24-27 (observatory at sunset + 3 Milky Way exposures, GPS 33.99/-99.95)
+  are **Copper Breaks**, not Caprock. They belong with `Quanah`.
+- `Caprock Canyons` frame 28 is a **Manhattan street** on the X-T5, Dec 26 2023.
+- `New Braunfels and Austin`'s 7 New Mexico frames belong to **`Santa Fe`** — same July 2018 trip,
+  same Chimayó adobe, same plaza market stall.
+- `Iceland` holds one GFX100RF frame from 2025-10-13 that belongs with **Quebec**.
+
+## Emerging body of work
+
+`Caprock Canyons` + `Quanah` + `Guadalupe Mountains` are not three trips. They are one sustained
+subject: **Texas high country on the X-T5 and X100VI**, shot repeatedly 2023-2026. Red rock,
+dirt trails running out of the frame, dry grass, long horizons, no people. This is the closest
+thing in the library to a coherent chapter that nobody has named yet.
+
+## Second data issue
+
+6 of 24 sampled `Arkansas` frames rendered **no derivative**. Either videos or originals not
+downloaded from iCloud. If originals are not on local disk, grading requires pulling them down
+first. Worth auditing library-wide before any grading pass.
