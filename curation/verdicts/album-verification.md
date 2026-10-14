@@ -197,3 +197,47 @@ the most concentrated body of on-thesis material in the library and it is three 
 
 Two frames from the sample worth putting in front of a juror immediately: the empty Fushimi Inari
 torii tunnel (GFX100RF), and the empty Nakamise approach receding (GFX100RF).
+
+## Round 2 continued (3)
+
+| Album | Verdict | Real | Notes |
+|---|---|---|---|
+| **Alaska** | **REAL** | ~46/48 | Aug 13-19 2022, Waterfall Resort, Prince of Wales Island. X-Pro3 and X-E4. A fishing trip that produced an unintentional quiet body of work: a channel at dusk with mirror water and one island silhouette, a nearly empty grey seascape, a small treed island alone in flat water, grey water meeting grey sky with rain across it. Also an old cannery on pilings, a whale under a cloud bank, driftwood roots. Stray: frame 1 (Feb 2021). |
+| **Montreal and Quebec City** | **REAL** | ~43/48 | Oct 11-13 2025, GFX100RF. **A stone arch gate in the Quebec ramparts looking through to the old town. An embrasure looking through to a building beyond. A road along the base of the wall. Saint Joseph's Oratory at the end of a long straight walk with one figure midway. The basilica nave receding to the altar. The Pont de Québec cantilever.** Plus a St. Lawrence panorama that is almost all sky and water. 4 strays (2 bluebonnet frames from home, a 2019 E-M10 storefront, a Dallas frame). |
+
+---
+
+# THE CENTRAL FINDING
+
+After verifying 35 of 60 albums by eye, one pattern dominates everything else:
+
+**Randy has been photographing physical thresholds compulsively since 2009, on nine cameras,
+across eleven countries and states, and filing them under place names.**
+
+| Where | When | Camera | What |
+|---|---|---|---|
+| Japan | Jul 2026 | GFX100RF | ~12 torii and temple gates; Fushimi Inari tunnel 4 ways |
+| Quebec | Oct 2025 | GFX100RF | stone arch gate, embrasure, nave, long walk to a dome, cantilever bridge |
+| Oregon/SW | Mar 2022 | X-Pro3 | covered bridge outside AND inside, arched canyon bridge, Hoover Dam |
+| New Hampshire | Oct 2026 | Leica Q3 43 | road running into woods, cairns on a shore |
+| Pennsylvania | Oct 2009 | Canon PowerShot | Washington Crossing: the boat, the river |
+| Colorado | 2020-25 | X-T2, X-Pro3 | 4 collapsing mine structures, railyard with tracks curving out of frame |
+| Caprock Canyons | Nov 2023 | X-T5 | 4 red dirt trails running into the canyon |
+| Iceland | Jan 2026 | GFX100S II, X-E5 | blue ice canyon from above, ice cave |
+| San Diego | May 2015 | iPhone 6 | the US-Mexico border fence |
+| Smoky Mountains | Oct 2024 | X-T5 | footbridge over a creek, trail climbing into mist |
+| Santa Fe | Jul 2018 | a6000 | old wooden gate in an adobe wall |
+| New Orleans | 2016 & 2023 | iPhone 6, X-T5 | the same empty street at dawn, eleven years apart |
+| Washington DC | Dec 2009 | E-510 | the Mall's long gravel path to the Capitol |
+
+The project notes state "The Infinite Arch is not about physical arches." **The archive disagrees.**
+The compulsion predates the thesis by roughly thirteen years. The abstraction appears to be an
+explanation Randy arrived at for something he was already doing.
+
+This is not a correction to the thesis. It is the evidence base for it, and it has been invisible
+because it is distributed across albums named for places rather than for what is in them.
+
+**Implication for the structure:** location albums are the wrong top-level organizing principle for
+the ARTISTIC layer. They are correct for provenance (TRIPS, where and when) but the chapters need
+to cut across them. A `Ch: Thresholds` keyword spanning Japan, Quebec, Oregon, Caprock, Santa Fe,
+Iceland and New Orleans would assemble a body of work that currently cannot be seen at all.
