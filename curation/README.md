@@ -146,3 +146,20 @@ ZCLOUDISMYASSET = 1)` before generating any album script.**
 
 Residual after both repairs: 1,196 frames still outside WORKING (1,160 visibility, 36 burst
 stack). That is 6% of the Working layer.
+
+## FINALS (planned 14 Oct, evening; not yet imported)
+
+The locked portfolio lives in a Lightroom catalog, not a folder:
+`~/Documents/Projects/Infinite ARch Photo Workspace Local/Final Prints and IMages/Final Prints and IMages.lrcat`
+
+It references 415 files across sibling show/series folders under `~/Documents/Projects/Photography/`:
+VAGF, The Gallery, TPS, ThePlatform, TheBeacon, Seascapes, Chasing The Sun, The View, plus an
+auto-import dump. Collapsed by title stem: **137 photographs, 115 titled**. 39 have a negative in
+the catalog; 17 of those negatives are already in Photos. 58 carry a print size in the filename.
+Lightroom star ratings are meaningless (Randy's word) and must not be mapped to Tier.
+
+Plan: new top-level `FINALS` folder, one album per show/series (a title shown in four shows is in
+four albums). One high-res JPG per photograph into Photos; TIFs, backing cards and sized outputs
+stay on disk. Keywords: `Final: <title>`, `Source: <negative filename>`, `Catalog: <lrcat>`,
+`Printed: <sizes>`. `Tier:` left empty. Lightroom and Photos do not roundtrip; the keyword link on
+filename is the only durable bridge, and Randy's `lrc_gen.py` already speaks to the catalog.
