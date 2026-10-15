@@ -27,6 +27,7 @@ the Feb-2015 New Orleans cemetery day (St. Louis No. 1); Scarborough Faire 2015.
 - Date dumps with no derivatives: c417 (143), c440 (351, includes NOLA), c095, c422 dump.
 
 ## Clock faults found
+- GFX50R: all 31 frames are dated Mar-May 2018, before the camera shipped (Nov 2018). The clock was never set. 14 are Ennis Apr 2026; the other 17 (dog on bed, desk) are home with unknown real dates.
 - KODAK V1253 is a year early through mid-2007 (toddler in "Jan 2007" swimsuit frames).
 - NEX-5N frames dated before Aug 2011 are impossible; c176/c177 are really late 2011/early 2012.
 
@@ -36,6 +37,5 @@ c281 Palo Duro / Pikes Peak B&W; c296 St. Louis No. 1; c072 Napa vines in fog.
 
 ## Named by Randy (15 Oct 2026)
 - c480 May 21 2022 pecan orchard = Brinkman Ranch, Eldorado and Coit, Frisco, before construction (29 frames, Home). The orchard is gone now, which makes these frames a record of a vanished place.
-- c368 May 8 2018 = Zion Cemetery, Frisco (14 frames, Home). Witnesses material.
-- c570 Apr 5 2026 = Ennis, TX (67 frames, Texas). c368 and c570 were NOT the same place; I was wrong.
+- c368 + c570 = Ennis, TX (81 frames). The "May 2018" frames are GFX50R with a bad clock; they belong to the April 2026 Ennis shoot. My first read (same place) was right.
 - Fishing near May 2022: only Bayfield, CO on Jun 6 (already GPS-placed). No Brinkman fishing frames found by the search index.

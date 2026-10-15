@@ -51,7 +51,7 @@ R={
  'c296':[(rng('2015-02-27','2015-02-28'),'New Orleans, LA'),(None,H)],
  'c301':[(None,'Waxahachie, TX')],
  'c366':[(lambda x: x['cam']=='?' and x['d']=='2018-03-22',NOLOC),(None,H)],
- 'c368':[(rng('2018-05-08','2018-05-08'),'Zion Cemetery, Frisco, TX'),(None,H)],
+ 'c368':[(rng('2018-05-08','2018-05-08'),'Ennis, TX'),(None,H)],
  'c417':[(None,NOLOC)],
  'c422':[(rng('2019-12-29','2019-12-29'),NOLOC),(None,H)],
  'c440':[(None,NOLOC)],
