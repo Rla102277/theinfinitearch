@@ -8,7 +8,7 @@ def clean(l):
     return l
 def region(l):
     if l is None: return None
-    if l=='Home (DFW)': return 'Home (DFW)'
+    if l=='Home (DFW)' or l.endswith('Frisco, TX'): return 'Home (DFW)'
     p=[s.strip() for s in l.split(',')]
     last=p[-1]
     if last in US: return US[last]
@@ -51,15 +51,15 @@ R={
  'c296':[(rng('2015-02-27','2015-02-28'),'New Orleans, LA'),(None,H)],
  'c301':[(None,'Waxahachie, TX')],
  'c366':[(lambda x: x['cam']=='?' and x['d']=='2018-03-22',NOLOC),(None,H)],
- 'c368':[(rng('2018-05-08','2018-05-08'),NOLOC),(None,H)],
+ 'c368':[(rng('2018-05-08','2018-05-08'),'Zion Cemetery, Frisco, TX'),(None,H)],
  'c417':[(None,NOLOC)],
  'c422':[(rng('2019-12-29','2019-12-29'),NOLOC),(None,H)],
  'c440':[(None,NOLOC)],
- 'c480':[(rng('2022-05-21','2022-05-21'),NOLOC),(None,H)],
+ 'c480':[(rng('2022-05-21','2022-05-21'),'Brinkman Ranch, Frisco, TX'),(None,H)],
  'c504':[(None,NOLOC)],
  'c508':[(rng('2023-04-08','2023-04-08'),NOLOC),(None,H)],
  'c563':[(rng('2025-11-23','2025-11-23'),NOLOC),(None,H)],
- 'c570':[(rng('2026-04-05','2026-04-05'),NOLOC),(None,H)],
+ 'c570':[(rng('2026-04-05','2026-04-05'),'Ennis, TX'),(None,H)],
 }
 verified={l.split('\t')[0][:4] for l in open('verdicts.tsv') if l[:1]=='c'}
 out={};how=collections.Counter()

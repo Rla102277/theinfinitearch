@@ -6,7 +6,7 @@ Every cluster with no anchor (243) and every home-anchored cluster with 8+ real-
 was rendered as a sheet and read by eye: 229 sheets, verdicts in `v3-cluster-verdicts.tsv`.
 
 ## Result
-- 64,389 live frames. 62,288 placed, 2,101 in NO LOCATION AVAILABLE.
+- 64,389 live frames. 62,401 placed, 1,988 in NO LOCATION AVAILABLE.
 - 340 `Loc:` values (city level), 41 `Place:` regions (state or country). Home (DFW) 32,847.
 - Wyoming is real this time: 26 iPhone frames, Casper and Cheyenne, Nov 2015 and Jan 2016.
 
@@ -21,8 +21,6 @@ the Feb-2015 New Orleans cemetery day (St. Louis No. 1); Scarborough Faire 2015.
 ## Open: Randy names these and they move out of NO LOCATION
 - c128 Jul 22-26 2009: drive east across the Mississippi at Vicksburg to a family wedding. Where?
 - c173 Nov 2010: stingray touch pool, garden with seahorse columns.
-- c368 May 2018 + c570 Apr 2026: SAME ranch, bluebonnet hill, pond, highland cattle, star gate. Ennis?
-- c480 May 2022: pecan orchard rows and thistle field.
 - c504 Mar 2023: flooded river bottom, spillway (B&W).
 - c508 Apr 2023: pumpjacks on a reservoir shore, pelicans.
 - c075 Dec 2007 Kodak: horse barn, clear spring.
@@ -35,3 +33,9 @@ the Feb-2015 New Orleans cemetery day (St. Louis No. 1); Scarborough Faire 2015.
 ## Work candidates spotted while placing (not graded)
 c480 pecan orchard corridors; c504 drowned trees; c511 collapsed barn B&W; c531 dead tree in water;
 c281 Palo Duro / Pikes Peak B&W; c296 St. Louis No. 1; c072 Napa vines in fog.
+
+## Named by Randy (15 Oct 2026)
+- c480 May 21 2022 pecan orchard = Brinkman Ranch, Eldorado and Coit, Frisco, before construction (29 frames, Home). The orchard is gone now, which makes these frames a record of a vanished place.
+- c368 May 8 2018 = Zion Cemetery, Frisco (14 frames, Home). Witnesses material.
+- c570 Apr 5 2026 = Ennis, TX (67 frames, Texas). c368 and c570 were NOT the same place; I was wrong.
+- Fishing near May 2022: only Bayfield, CO on Jun 6 (already GPS-placed). No Brinkman fishing frames found by the search index.
