@@ -36,3 +36,15 @@ Album script: `runner/pending/13_PlacesMaybe.applescript` puts 179 frames in `2 
 - Almost all of it is hidden on purpose. Private material and children stay hidden and are not picked.
 - 24 frames are kept as Maybe (empty landscapes, home, cats, a tree tunnel). Adding them to an album does
   NOT unhide them. Randy unhides by hand only if a frame earns it.
+
+## Puerto Vallarta re-read (Jun 2019, Jun 2021): 341 frames, every frame, no burst collapse
+- Ids are Q0001.. in `trip_pvr2.json` (`pvr2.py`). No PVR frames exist outside the original windows;
+  the 219 iPhone frames on 12 Jun 2019 are at home.
+- Added 22: T 4, W 14, E 4. 13_PlacesMaybe now holds 201 frames (T 39, C 10, W 80, E 55, B 2, K 15).
+- Best new: 0226 and 0224 B&W Buddha heads in palm fronds (Vallarta Botanical Garden, 17 Jun 2021, not town),
+  0046 cathedral crown framed inside a broken wall arch, 0174 leatherworker in his workshop (pairs with picked 0173),
+  0170 hand sliding a tortilla onto the comal, 0101 saxophonist on the night malecon.
+- The 2019 E-M10 Mark III frames exist twice: JPEG imported at the time, ORF RAW imported ~9 months later.
+  Grade on one and print from the ORF.
+- 2021 frames 0272 to 0340 are Hotel Mousai grounds decor. 0341 is home, misdated into the trip.
+- Two frames in this window are passport scans. They are not in any album and should be hidden.
