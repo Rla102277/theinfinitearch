@@ -1,0 +1,6 @@
+cabo W:16,20
+cabo E:4,91,103,105,107,111
+cabo C:10,11
+cabo T:39
+cabo W:33,45
+cabo E:47,52
