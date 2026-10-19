@@ -48,3 +48,15 @@ Album script: `runner/pending/13_PlacesMaybe.applescript` puts 179 frames in `2 
   Grade on one and print from the ORF.
 - 2021 frames 0272 to 0340 are Hotel Mousai grounds decor. 0341 is home, misdated into the trip.
 - Two frames in this window are passport scans. They are not in any album and should be hidden.
+
+## Older Colorado (Oct 2017, Jul 2019, Jul 2020, Jul 2021, Jun 2022): 784 frames, 371 shots, 13 sheets
+- Found by GPS across all years; only Jul 2024 and Jul 2025 had been deep-read. Ids in `trip_coold.json` (`trips3.py`).
+- Added 29: T 5, W 7, E 14, C 2, B 1. 13_PlacesMaybe now holds 230 (T 44, C 12, W 87, E 69, B 3, K 15).
+- Best: Old Hundred mine (0292 light beam into the portal, 0302 down the timbered shaft, 0295 wet tunnel),
+  0332 and 0133 switchback roads through snow bowls, 0183 marsh channel under a spruce wall, 0187 fog over a black pool,
+  0124/0141 roofless miner's cabin in willow (B&W for Witnesses).
+- NOT Colorado: Oct 2017 a6000 set is a Frisco TX cheer game (no Colorado at all); 4 to 5 Jun 2022 is Santa Fe and
+  the Sandia Peak Tram (7 Sandia frames already in Maybe under the wrong state); Marble Brewery Albuquerque;
+  Cadillac Ranch and Bates Motel sign (Amarillo); Mingus Mountain AZ; Cibola NF NM.
+- Meadow series 0365 to 0371: six near-identical frames already in Maybe. Keep one.
+- 0153 is a blank navy frame. Delete.
