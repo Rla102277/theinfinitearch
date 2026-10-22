@@ -1,6 +1,6 @@
 import sqlite3,bisect,collections,datetime,json
 o=sqlite3.connect("ia_index.sqlite")
-mine=('X-T5','X-T2','X-Pro3','X-E2','X-E4','X-E5','X100V','X100VI','GFX100RF','GFX100S II','GFX 50R','X-T100','X-M1','LEICA Q3 43','ILCE-6000','NEX-5','NEX-5N','NEX-5R','NEX-5T','DSC-WX9','E-510','E-M10 Mark III','E-M10MarkII','NIKON D3400')
+mine=('X-T5','X-T2','X-Pro3','X-E2','X-E4','X-E5','X100V','X100VI','GFX100RF','GFX100S II','GFX 50R','X-T100','X-M1','LEICA Q3 43','ILCE-6000','NEX-5','NEX-5N','NEX-5R','NEX-5T','DSC-WX9','E-510','E-M10 Mark III','E-M10MarkII','NIKON D3400','KODAK V1253 ZOOM DIGITAL CAMERA','KODAK DX6490 ZOOM DIGITAL CAMERA','FinePix E900','Canon PowerShot SD600','Canon PowerShot SD880 IS','Canon PowerShot S2 IS','Canon PowerShot A85','Canon PowerShot SD100','Canon EOS 20D','Canon EOS 30D','DMC-ZS3','DSC-RX100','DSC-RX100M2','FDMAVICA')
 ts=lambda s:datetime.datetime.fromisoformat(s).timestamp()
 A=[]  # anchors: GPS-bearing non-E-510 frames with Place keyword
 for d,kw,md,la in o.execute("select date_utc,keywords,model,lat from assets where trashed=0 and lat is not null and model<>'E-510' and keywords like '%Place:%'"):

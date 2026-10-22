@@ -9,7 +9,7 @@ hidden, trashed, shared, favorite, GPS, burst id, albums, keywords, in_chapters,
 - `camera_inventory.csv`: every make/model with counts, date span, hidden, deleted, shared, chaptered.
 - `picks_resolved.csv`: all 1,571 sweep picks resolved to UUID, filename, camera, date. All are in a Maybe album.
   Not included: wide sweep, Oregon/Nevada, film and Japan picks (their pick json lives on the Air).
-- `place_proposals.csv`: 682 real-camera frames with no Place keyword where every GPS frame within 3 hours
+- `place_proposals.csv`: 703 real-camera (incl. the older digital bodies confirmed later on 21 Oct) frames with no Place keyword where every GPS frame within 3 hours
   agrees on one Place. Feeds `runner/pending/15_PlaceFixes.applescript`.
 
 ## Findings
