@@ -14,11 +14,12 @@ Randy's bodies (from Randy, 21 Oct 2026):
 - Fujifilm: X-T5, X-T2, X-Pro3, X-E2, X-E4, X-E5, X100V, X100VI, GFX100RF, GFX100S II, GFX 50R, X-T100 (trial body), possibly X-M5
 - Nikon: D3400
 - Leica: Q2, Q3 43
+- Earlier digital (confirmed 21 Oct 2026): Kodak V1253, Kodak DX6490, Fujifilm FinePix E900, Canon PowerShot SD600 / SD880 IS / S2 IS / A85 / SD100, Canon EOS 20D, Canon EOS 30D, Panasonic DMC-ZS3, Sony RX100, Sony RX100M2, Sony Mavica (the honeymoon frames are his but stay private and hidden)
 - Film bodies (not in metadata): Klasse W, Natura Classica, Hexar RF, X-700, Electro 35 GSN
 
 Not Randy's: Nikon D7000 (Cabo charter photographer, tag `Src: Tour photographer`), Nikon D1X (wedding coverage), Nikon D700, D70s.
 
-Unconfirmed, ask before treating as his: Kodak V1253 / DX6490, Fujifilm FinePix E900 / S5000, Fujifilm X-M1, Canon PowerShots (SD600, SD880, S2 IS, A85, SD100), Canon EOS 20D / 30D / Rebel T6, Panasonic DMC-ZS3, Sony RX100 / RX100M2 / a5100 / HX5V, Sony Mavica.
+Unconfirmed, ask before treating as his: Fujifilm X-M1, FinePix S5000, Canon EOS Rebel T6, Sony a5100, Sony HX5V.
 
 Not in Photos at all as of 21 Oct 2026: E-M10 Mark I, Leica Q2, X-M5.
 
