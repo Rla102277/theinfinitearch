@@ -39,4 +39,14 @@ Every committed pick carries UUID, original filename, camera and local capture d
 ## Writing to Photos
 - Photos is the system of record. The index (`ia_index.sqlite`, built by `buildindex.py`) is a read-only snapshot, rebuilt each run, never edited.
 - Scripts are written to `runner/pending` and run only when Randy says, on the Mac whose database produced the ids.
-- Keywords: `Ch: <chapter>`, `Prov: <tier>`, `IA: <grade>`, `Place: <state/country>`, `Loc: <city>`, `Src: <source>`.
+- Keywords (CDL-C-014, 21 Oct 2026):
+  - `IA:` S / A+ / A / A− / B+ / B / C
+  - `Role:` Anchor / Support / Developmental / Personal Archive / Exclude
+  - `Ch:` Thresholds / Companions / Witnesses / Elsewhere / Becoming / Keeping (Keeping confirmed 21 Oct)
+  - `Motif:` Threshold, Passage, Road, Path, Arch, Bridge, Horizon, Solitude, Memory, Mythic, Old Structure, Human Mark, Outside Time
+  - `Form:` Interior / Subtraction
+  - `Light:` Fog / Dusk / Night / Overcast / Golden / Midday
+  - `Event:` Second Line, Parade, Festival, Street Music, Ritual, plus Becoming milestones
+  - `Prov:` Maybe / No (workflow only). `Place:`, `Loc:`, `Src:`, `Legacy: Starred` kept.
+  - IA, Role, Motif, Form, Light are applied by eye during the cut, never in bulk.
+- Retired (CDL-C-015): `has people`, `has no people`, `core_keep`, `landscao`, `landscape`, `Kind:*`, old `Legacy:*` and `Known Best*` after folding into `Legacy: Starred`.
